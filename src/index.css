@@ -135,3 +135,24 @@ input:focus {
     width: calc(20% - 2rem);
   }
 }
+
+.plant-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.plant-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input {
+  margin: 5px;
+}

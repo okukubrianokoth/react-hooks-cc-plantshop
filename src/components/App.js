@@ -1,11 +1,10 @@
 import React from "react";
-import Header from "./Header";
 import PlantPage from "./PlantPage";
 
 function App() {
   return (
-    <div className="app">
-      <Header />
+    <div>
+      <h1>Plantsy 🌿</h1>
       <PlantPage />
     </div>
   );
